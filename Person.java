@@ -19,10 +19,10 @@ class Person
     String ABC=a1.getfullname();
     String EFG=a2.getfullname();
 
-    System.out.println("Person 1: "+ABC);
-    System.out.println("Person 2: "+EFG);
+    System.out.println("Person 1:"+ABC);
+    System.out.println("Person 2:"+EFG);
 
     double average = ((a1.age + a2.age) /2.0);
-    System.out.println("Average Age:"+age);
+    System.out.println("Average Age:"+average);
 }
 }
