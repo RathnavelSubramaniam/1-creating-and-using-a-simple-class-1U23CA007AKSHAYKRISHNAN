@@ -13,7 +13,7 @@ class Person
         return firstname + " "+lastname+ " ";
     }
     public static void main(String args[]){
-    Person a1 = new Person("John" ,"Doe",30);
+    Person a1 = new Person("Jhon" ,"Doe",30);
     Person a2 = new Person("Alice" ,"Smith",25);
 
     String ABC=a1.getfullname();
